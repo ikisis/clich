@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>net.clich</groupId>
-    <artifactId>top</artifactId>
+    <artifactId>clich-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
   <groupId>net.clich</groupId>
@@ -12,26 +12,6 @@
   <version>1.0-SNAPSHOT</version>
   <name>clich-core</name>
   <url>http://maven.apache.org</url>
-  <dependencies>
-    <dependency>
-      <groupId>org.projectlombok</groupId>
-      <artifactId>lombok</artifactId>
-      <optional>true</optional>
-      <version>1.18.12</version>
-      </dependency>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-engine</artifactId>
-      <version>${junit.jupiter.version}</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.junit.platform</groupId>
-      <artifactId>junit-platform-runner</artifactId>
-      <version>${junit.platform.version}</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
   <build>
     <plugins>
         <plugin>
@@ -43,5 +23,5 @@
             <version>2.22.2</version>
         </plugin>
     </plugins>
-</build>
+  </build>
 </project>
